@@ -14,6 +14,7 @@
 		CC2A59F02C46BCE40089A9A2 /* x_ballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A59EF2C46BCE40089A9A2 /* x_ballTests.swift */; };
 		CC2A59FA2C46BCE40089A9A2 /* x_ballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A59F92C46BCE40089A9A2 /* x_ballUITests.swift */; };
 		CC2A59FC2C46BCE40089A9A2 /* x_ballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A59FB2C46BCE40089A9A2 /* x_ballUITestsLaunchTests.swift */; };
+		CC2A5A092C47E88C0089A9A2 /* BouncingBallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A5A082C47E88C0089A9A2 /* BouncingBallsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CC2A59F52C46BCE40089A9A2 /* x_ballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x_ballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2A59F92C46BCE40089A9A2 /* x_ballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_ballUITests.swift; sourceTree = "<group>"; };
 		CC2A59FB2C46BCE40089A9A2 /* x_ballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_ballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC2A5A082C47E88C0089A9A2 /* BouncingBallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingBallsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CC2A59E02C46BCE00089A9A2 /* ContentView.swift */,
 				CC2A59E22C46BCE30089A9A2 /* Assets.xcassets */,
 				CC2A59E42C46BCE30089A9A2 /* Preview Content */,
+				CC2A5A082C47E88C0089A9A2 /* BouncingBallsView.swift */,
 			);
 			path = x_ball;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2A59E12C46BCE00089A9A2 /* ContentView.swift in Sources */,
+				CC2A5A092C47E88C0089A9A2 /* BouncingBallsView.swift in Sources */,
 				CC2A59DF2C46BCE00089A9A2 /* x_ballApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
