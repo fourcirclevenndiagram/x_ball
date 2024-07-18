@@ -6,7 +6,7 @@ struct BouncingBallsView: UIViewRepresentable {
         let view = UIView(frame: UIScreen.main.bounds)
         let animator = UIDynamicAnimator(referenceView: view)
         
-        let blueBall = UIView(frame: CGRect(x: 100, y: 100, width: 50, height: 50))
+        let blueBall = UIView(frame: CGRect(x: 50, y: 50, width: 50, height: 50))
         blueBall.backgroundColor = .blue
         blueBall.layer.cornerRadius = 25
         view.addSubview(blueBall)
